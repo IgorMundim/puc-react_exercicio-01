@@ -1,0 +1,11 @@
+.user-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.user-menu__current-profile {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 1rem;
+}

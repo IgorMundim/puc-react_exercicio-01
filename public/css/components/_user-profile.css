@@ -1,0 +1,25 @@
+.user-profile {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+}
+
+.user-profile::before {
+    border: .5rem solid rgba(255, 255, 255, 0.7);
+    border-radius: 10rem;
+    content: '';
+    position: absolute;
+    inset: 0;
+}
+
+.user-profile:hover::before {
+    border-color: red;
+}
+
+.user-profile__avatar {
+    height: 4.8rem;
+    width: 4.8rem;
+    padding: 1rem;
+    position: relative;
+}

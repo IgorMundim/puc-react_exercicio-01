@@ -1,0 +1,48 @@
+.banners {
+    align-items: center;
+    display: flex;
+    padding-top: 9.7rem;
+    overflow: hidden;
+    
+   
+}
+
+.banner-slider__item {
+    flex-shrink: 0;
+    opacity: 0.5;
+    padding-bottom: 1rem;
+    position: relative;
+    width: 89vw;
+    margin-left: 5vw;
+   
+}
+
+.banner-slider__item.active {
+    opacity: 1;
+}
+
+.banner-slider__link {
+    display: block;
+    position: relative;
+}
+
+.banner-slider__link::before {
+    border: .4rem solid rgba(255, 255, 255, 0);
+    border-radius: .5rem;
+    content: '';
+    position: absolute;
+    inset: 0;
+    transition: border .3s;
+}
+
+.banner-slider__link:hover::before {
+    border-color: rgba(255, 255, 255, 0.7);
+}
+
+.banner-slider__cover {
+    border-radius: .5rem;
+    display: block;
+    box-shadow: #000 0rem 2rem 3rem -2rem;
+    height: 30rem;
+    width: 100%;
+}

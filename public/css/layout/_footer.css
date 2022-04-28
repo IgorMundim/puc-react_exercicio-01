@@ -1,0 +1,10 @@
+.footer {
+    position: relative;
+}
+
+.footer_wrapper {
+    align-items: center;
+    display: flex;
+    position: absolute;
+    left: 41%;
+}
