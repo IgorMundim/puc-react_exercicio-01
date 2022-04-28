@@ -2,7 +2,7 @@
 
  **Curso:** Desenvolvimento web Full Stack
  
- **Disciplina:** Frameworks front end: React
+ **Disciplina:** Frameworks front end React
  
  **Professor:** Samuel Martins
  
